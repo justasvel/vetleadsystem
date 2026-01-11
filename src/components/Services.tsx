@@ -8,7 +8,7 @@ const services = [
   },
   {
     icon: Users,
-    title: "Pet Owner Lead Generation",
+    title: "Pet Owner Outreach",
     description: "Targeted campaigns that reach pet owners in your local area actively searching for veterinary services.",
   },
   {

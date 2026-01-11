@@ -42,7 +42,7 @@ const TermsOfService = () => {
               <p className="text-muted-foreground leading-relaxed">
                 VetLeadsystem provides digital marketing services specifically designed for 
                 veterinary clinics in the United States. Our services include, but are not limited 
-                to, lead generation, marketing funnel creation, paid advertising management, and 
+                to, marketing funnel creation, paid advertising management, and 
                 outreach programs to pet owners.
               </p>
             </section>
