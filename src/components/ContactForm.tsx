@@ -12,7 +12,8 @@ const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [smsConsent, setSmsConsent] = useState(false);
   const [formData, setFormData] = useState({
-    name: "",
+    firstName: "",
+    lastName: "",
     clinicName: "",
     email: "",
     phone: "",
@@ -36,7 +37,7 @@ const ContactForm = () => {
     }
 
     // Basic validation
-    if (!formData.name || !formData.clinicName || !formData.email || !formData.phone) {
+    if (!formData.firstName || !formData.lastName || !formData.clinicName || !formData.email || !formData.phone) {
       toast({
         title: "Missing Information",
         description: "Please fill in all required fields.",
@@ -87,7 +88,7 @@ const ContactForm = () => {
           variant="outline" 
           onClick={() => {
             setIsSubmitted(false);
-            setFormData({ name: "", clinicName: "", email: "", phone: "" });
+            setFormData({ firstName: "", lastName: "", clinicName: "", email: "", phone: "" });
             setSmsConsent(false);
           }}
         >
@@ -109,20 +110,37 @@ const ContactForm = () => {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-5">
-        <div className="space-y-2">
-          <Label htmlFor="name" className="text-foreground font-medium">
-            Your Name *
-          </Label>
-          <Input
-            id="name"
-            name="name"
-            type="text"
-            placeholder="Dr. John Smith"
-            value={formData.name}
-            onChange={handleInputChange}
-            className="h-12"
-            required
-          />
+        <div className="grid grid-cols-2 gap-4">
+          <div className="space-y-2">
+            <Label htmlFor="firstName" className="text-foreground font-medium">
+              First Name *
+            </Label>
+            <Input
+              id="firstName"
+              name="firstName"
+              type="text"
+              placeholder="John"
+              value={formData.firstName}
+              onChange={handleInputChange}
+              className="h-12"
+              required
+            />
+          </div>
+          <div className="space-y-2">
+            <Label htmlFor="lastName" className="text-foreground font-medium">
+              Last Name *
+            </Label>
+            <Input
+              id="lastName"
+              name="lastName"
+              type="text"
+              placeholder="Smith"
+              value={formData.lastName}
+              onChange={handleInputChange}
+              className="h-12"
+              required
+            />
+          </div>
         </div>
 
         <div className="space-y-2">
@@ -174,8 +192,10 @@ const ContactForm = () => {
           {/* SMS Disclosure - A2P Compliance */}
           <p className="text-xs text-muted-foreground mt-2 leading-relaxed">
             By providing your phone number, you agree to receive text messages from 
-            VetLeadsystem regarding our services. Message and data rates may apply. 
-            Message frequency varies. Reply STOP to opt-out.
+            VetLead System regarding our marketing services. Message and data rates may apply. 
+            Message frequency varies. Reply STOP to opt-out at any time. View our{" "}
+            <a href="/privacy-policy" className="underline hover:text-primary">Privacy Policy</a> and{" "}
+            <a href="/terms-of-service" className="underline hover:text-primary">Terms of Service</a> for more details.
           </p>
         </div>
 
@@ -191,7 +211,7 @@ const ContactForm = () => {
             htmlFor="smsConsent" 
             className="text-sm text-muted-foreground leading-relaxed cursor-pointer"
           >
-            I agree to receive SMS notifications and marketing messages from VetLeadsystem.
+            I consent to receive SMS communications from VetLead System.
           </Label>
         </div>
 
