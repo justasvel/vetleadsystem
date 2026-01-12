@@ -72,7 +72,10 @@ const Footer = () => {
                 © {new Date().getFullYear()} VetLeadsystem. All rights reserved.
               </p>
               <p className="text-background/50 text-sm mt-1">
-                VetLeadsystem | Vilnius, Lithuania | contact@vetleadsystem.lt
+                VetLeadsystem is operated by Justinas Velicka
+              </p>
+              <p className="text-background/50 text-sm mt-1">
+                Krokuvos g. 60-33, 09306, Vilnius, Lithuania | contact@vetleadsystem.lt
               </p>
             </div>
             <p className="text-background/50 text-sm">

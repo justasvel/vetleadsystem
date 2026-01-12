@@ -162,7 +162,8 @@ const TermsOfService = () => {
               </p>
               <div className="mt-4 p-4 bg-muted rounded-lg">
                 <p className="text-foreground font-semibold">VetLeadsystem</p>
-                <p className="text-muted-foreground">Vilnius, Lithuania</p>
+                <p className="text-muted-foreground">Operated by Justinas Velicka</p>
+                <p className="text-muted-foreground">Krokuvos g. 60-33, 09306, Vilnius, Lithuania</p>
                 <p className="text-muted-foreground">Email: contact@vetleadsystem.lt</p>
               </div>
             </section>
