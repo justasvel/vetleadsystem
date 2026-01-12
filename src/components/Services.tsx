@@ -14,7 +14,7 @@ const services = [
   {
     icon: Mail,
     title: "Automated Outreach Programs",
-    description: "Stay connected with pet owners through SMS and email campaigns for appointment reminders, promotions, and follow-ups.",
+    description: "Stay connected with pet owners through SMS and email campaigns for appointment reminders and follow-ups.",
   },
   {
     icon: BarChart3,
