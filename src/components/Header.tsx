@@ -23,7 +23,7 @@ const Header = () => {
             <div className="w-10 h-10 rounded-lg gradient-hero flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">V</span>
             </div>
-            <span className="font-bold text-xl text-foreground">VetLeadsystem</span>
+            <span className="font-bold text-xl text-foreground">Vetleadsystem</span>
           </Link>
 
           {/* Desktop Navigation */}

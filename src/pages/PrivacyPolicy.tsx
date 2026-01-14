@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Introduction</h2>
               <p className="text-muted-foreground leading-relaxed">
-                VetLeadsystem ("we," "our," or "us") is committed to protecting your privacy. 
+                Vetleadsystem ("we," "our," or "us") is committed to protecting your privacy. 
                 This Privacy Policy explains how we collect, use, disclose, and safeguard your 
                 information when you visit our website vetleadsystem.lt or use our marketing services.
               </p>
@@ -154,7 +154,7 @@ const PrivacyPolicy = () => {
                 If you have questions or concerns about this Privacy Policy, please contact us at:
               </p>
               <div className="mt-4 p-4 bg-muted rounded-lg">
-                <p className="text-foreground font-semibold">VetLeadsystem</p>
+                <p className="text-foreground font-semibold">Vetleadsystem</p>
                 <p className="text-muted-foreground">Operated by Justinas Velicka</p>
                 <p className="text-muted-foreground">Krokuvos g. 60-33, 09306, Vilnius, Lithuania</p>
                 <p className="text-muted-foreground">Email: contact@vetleadsystem.lt</p>
@@ -169,7 +169,7 @@ const PrivacyPolicy = () => {
       <footer className="bg-foreground py-8">
         <div className="container mx-auto px-4 lg:px-8 text-center">
           <p className="text-background/70 text-sm">
-            © {new Date().getFullYear()} VetLeadsystem. All rights reserved.
+            © {new Date().getFullYear()} Vetleadsystem. All rights reserved.
           </p>
         </div>
       </footer>

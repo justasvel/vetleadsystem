@@ -29,7 +29,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground italic">
-                    "VetLeadsystem helped us increase new patient bookings by 280% in just 3 months!"
+                    "Vetleadsystem helped us increase new patient bookings by 280% in just 3 months!"
                   </p>
                   <p className="text-sm font-semibold text-foreground mt-2">— Dr. Sarah M., Texas</p>
                 </div>
@@ -40,14 +40,14 @@ const About = () => {
           {/* Content Side */}
           <div className="animate-fade-in-up">
             <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
-              About VetLeadsystem
+              About Vetleadsystem
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               We Understand the{" "}
               <span className="text-primary">Veterinary Industry</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Based in Lithuania with a dedicated focus on the US market, VetLeadsystem 
+              Based in Lithuania with a dedicated focus on the US market, Vetleadsystem 
               was founded with a simple mission: to help veterinary clinic owners focus 
               on what they do best — caring for animals.
             </p>

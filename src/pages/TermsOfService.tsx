@@ -31,7 +31,7 @@ const TermsOfService = () => {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Agreement to Terms</h2>
               <p className="text-muted-foreground leading-relaxed">
-                By accessing or using the VetLeadsystem website (vetleadsystem.lt) and services, 
+                By accessing or using the Vetleadsystem website (vetleadsystem.lt) and services, 
                 you agree to be bound by these Terms of Service. If you disagree with any part of 
                 these terms, you may not access our website or use our services.
               </p>
@@ -40,7 +40,7 @@ const TermsOfService = () => {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-foreground mb-4">2. Description of Services</h2>
               <p className="text-muted-foreground leading-relaxed">
-                VetLeadsystem provides digital marketing services specifically designed for 
+                Vetleadsystem provides digital marketing services specifically designed for 
                 veterinary clinics in the United States. Our services include, but are not limited 
                 to, marketing funnel creation, paid advertising management, and 
                 outreach programs to pet owners.
@@ -68,7 +68,7 @@ const TermsOfService = () => {
                 understand and agree to the following:
               </p>
               <ul className="list-disc list-inside text-muted-foreground space-y-3 mb-4">
-                <li>You will receive text messages from VetLeadsystem regarding our services, 
+                <li>You will receive text messages from Vetleadsystem regarding our services, 
                 updates, and marketing communications.</li>
                 <li>Message and data rates may apply depending on your carrier and plan.</li>
                 <li>Message frequency varies based on your interactions with our services.</li>
@@ -78,7 +78,7 @@ const TermsOfService = () => {
                 <p className="text-muted-foreground leading-relaxed">
                   <strong>To stop receiving SMS messages:</strong> Reply <strong>STOP</strong> to 
                   any message you receive from us. You will receive a confirmation message and will 
-                  no longer receive SMS communications from VetLeadsystem.
+                  no longer receive SMS communications from Vetleadsystem.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mt-3">
                   <strong>For help with SMS:</strong> Reply <strong>HELP</strong> to any message 
@@ -90,8 +90,8 @@ const TermsOfService = () => {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-foreground mb-4">5. Intellectual Property</h2>
               <p className="text-muted-foreground leading-relaxed">
-                The VetLeadsystem website, including its content, features, and functionality, is 
-                owned by VetLeadsystem and is protected by international copyright, trademark, and 
+                The Vetleadsystem website, including its content, features, and functionality, is 
+                owned by Vetleadsystem and is protected by international copyright, trademark, and 
                 other intellectual property laws. You may not reproduce, distribute, modify, or 
                 create derivative works without our express written permission.
               </p>
@@ -110,7 +110,7 @@ const TermsOfService = () => {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-foreground mb-4">7. Limitation of Liability</h2>
               <p className="text-muted-foreground leading-relaxed">
-                To the maximum extent permitted by law, VetLeadsystem shall not be liable for any 
+                To the maximum extent permitted by law, Vetleadsystem shall not be liable for any 
                 indirect, incidental, special, consequential, or punitive damages, including but 
                 not limited to loss of profits, data, or other intangible losses, resulting from 
                 your use of our services.
@@ -120,7 +120,7 @@ const TermsOfService = () => {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-foreground mb-4">8. Indemnification</h2>
               <p className="text-muted-foreground leading-relaxed">
-                You agree to indemnify, defend, and hold harmless VetLeadsystem and its officers, 
+                You agree to indemnify, defend, and hold harmless Vetleadsystem and its officers, 
                 directors, employees, and agents from any claims, damages, losses, liabilities, 
                 and expenses (including attorney's fees) arising out of your use of our services 
                 or violation of these Terms.
@@ -161,7 +161,7 @@ const TermsOfService = () => {
                 If you have any questions about these Terms of Service, please contact us at:
               </p>
               <div className="mt-4 p-4 bg-muted rounded-lg">
-                <p className="text-foreground font-semibold">VetLeadsystem</p>
+                <p className="text-foreground font-semibold">Vetleadsystem</p>
                 <p className="text-muted-foreground">Operated by Justinas Velicka</p>
                 <p className="text-muted-foreground">Krokuvos g. 60-33, 09306, Vilnius, Lithuania</p>
                 <p className="text-muted-foreground">Email: contact@vetleadsystem.lt</p>
@@ -176,7 +176,7 @@ const TermsOfService = () => {
       <footer className="bg-foreground py-8">
         <div className="container mx-auto px-4 lg:px-8 text-center">
           <p className="text-background/70 text-sm">
-            © {new Date().getFullYear()} VetLeadsystem. All rights reserved.
+            © {new Date().getFullYear()} Vetleadsystem. All rights reserved.
           </p>
         </div>
       </footer>

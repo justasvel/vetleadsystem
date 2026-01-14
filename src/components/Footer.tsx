@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">V</span>
               </div>
-              <span className="font-bold text-xl text-background">VetLeadsystem</span>
+              <span className="font-bold text-xl text-background">Vetleadsystem</span>
             </Link>
             <p className="text-background/70 max-w-md mb-6">
               High-performance marketing solutions exclusively for veterinary clinics 
@@ -69,10 +69,10 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-center md:text-left">
               <p className="text-background/70 text-sm">
-                © {new Date().getFullYear()} VetLeadsystem. All rights reserved.
+                © {new Date().getFullYear()} Vetleadsystem. All rights reserved.
               </p>
               <p className="text-background/50 text-sm mt-1">
-                VetLeadsystem is operated by Justinas Velicka
+                Vetleadsystem is operated by Justinas Velicka
               </p>
               <p className="text-background/50 text-sm mt-1">
                 Krokuvos g. 60-33, 09306, Vilnius, Lithuania | contact@vetleadsystem.lt
