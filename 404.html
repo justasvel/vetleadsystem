@@ -24,15 +24,17 @@
     
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <script>
-      // Handle GitHub Pages SPA redirect
-      // If URL is in format /?/path, redirect to /path
-      (function() {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect !== location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 0;
+      var l = window.location;
+      var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash;
+      sessionStorage.redirect = redirect;
+      l.replace(redirect);
     </script>
   </head>
   <body>
